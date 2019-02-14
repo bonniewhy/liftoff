@@ -1,0 +1,170 @@
+NOTES ---
+
+CAPSTONE PROJECT OVERVIEW
+
+Your project should ...
+1. Demonstrate marketable skills. You have a foundation in at least one language that is widely used by professionals. You can apply your skills within a profession-grade framework or tools like ASP.NET MVC or Spring Boot.
+2. Demonstrate your ability to learn new things. In your project, you will go beyond your initial learning to teach yourself something new. Maybe connecting to an API for backend? Maybe use JavaScript for your UX and Java in the back or something... Don't use bootstrap?
+3. Solve a problem. Your capstone project needs to demonstrate that I can identify a problem and come up with a software-based solution to that problem. Creating an app that allows a nonprofit to organize and communicate does, a Sudoku app doesn't.
+
+Regardless of the project you tackle, you should:
+    -- Build an application entirely yourself, or nearly so. If you use "starter code", you need to go WELL beyond what was provided or worked on by others. You should be able to clearly articulate what you built yourself vs. what was built by others.
+    -- Include 3 - 5 killer features. Each feature should add a significant new componenet to your project, but also shoudl be so big as to take you weeks to implement. Adding a new button? Not big enough. Creating a discussion forum? Too big. Adding user authentication? Just right.
+
+
+USER STORY MAPPING
+
+-- PRODUCT VISION
+    -- It's important to build a common understanding among a team of what we're setting out to build because we all carry around a ton of unspoken assumptions, preferences, experiences and attitudes of our own which color our intrepretations. The only way to get us all on the same page is to come together and talk about it to combine the best ideas and insights from everyone into the solution.
+
+    -- Product vision board:
+        -- Define your solution at a high level before taking a deeper dive into features, user journeys, and technical solutions.
+        -- Breakdown of what a vision board should look like:
+
+            ________________________________________________________
+            | VISION STATEMENT: Crisp summary of the vision / idea |
+            --------------------------------------------------------
+            | TARGET GROUP  | NEEDS     | PRODUCT     | VALUE      |
+            |               |           |             |            |
+            |Which market   |Which      |What are the |How is the  |
+            |segment does   |needs does |3 to 5 top   |product     |
+            |the product    |the product|features?    |going to    |
+            |address?       |fulfil?    |             |benefit the |
+            |               |           |What are its |company?    |
+            |Who are the    |How does it|unique       |            |
+            |target users   |create     |selling      |Will it, for|
+            |and customers? |value for  |points?      |instance,   |
+            |               |its users? |             |increase    |
+            |               |           |             |revenue,    |
+            |               |Which      |             |enter a new |
+            |               |emotions   |             |market,     |
+            |               |will it    |             |develop the |
+            |               |evoke?     |             |brand,      |
+            |               |           |             |reduce cost,|
+            |               |           |             |create      |
+            |               |           |             |valueable   |
+            |               |           |             |knowledge?  |
+            --------------------------------------------------------
+                                        http://www.romanpichler.com/    
+
+        -- The idea is to bring together all those with insight to contribute about the users and their needs, then work together to fill it in. Address the four columns one at a time and then collaboratviely compose a vision statement of one or two sentences.
+        -- The vision statement should be a crisp, clear summary of what you're setting out ot build which the whole team can buy into.
+        -- Once we have this shared vision of what we're setting out to build, we can start to interrogate the assumptions on which it's found and start validating these. For example, if you think that your assumptions about user needs are shaky, then you can now develop tests for those assumptions -- surveys, interviews, prototypes or even quickly sketched wirefframes -- to work out whether, in fact, they will lead to value creation.
+
+        "I find it helpful to identify the greatest risk or biggest uncertainty on the board. This creates focus, and it enforces a fail-fast: figuring out quickly what works and what doesn't, which assumptions hold true, and which don't." -- Roman Pichler
+
+-- USER STORY MAPPING
+    -- To generate the product vision, we already started listing the different users and their needs, the features that would help meet those needs and the value that would be generated. There are already some features we we have listed that can form the basis of our product backlog. It would be a mistake to try and form the backlog from those features alone, though.
+    -- Treat the vision board as the first iteration of something which needs fleshing out in all its dimensions -- not just in the 'features' dimension.
+
+    -- Story mapping is a way to envision the entire product or service as a series of tasks which the user completes. It involves building a grid of user stories which are laid out under headings that represent the user's experience moving through your product. Group the user stories under their respective "feature".
+
+    FEATURE 1 | FEATURE 2 | FEATURE 3
+
+    User story  User Story  User Story
+
+    User story  User Story
+
+    User story          
+
+
+    -- Here, we the high-level features of the product (the backbone, if you like) broken down into component user stories. This approach is helpful for organizing thoughts, it doesn't really consitute a story map, since it doesn't take into account the flow of the user's journey.
+
+    EXAMPLE: Simple eCommerce site
+
+    Initial story map:
+
+    PRODUCT SEARCH | PRODUCT PAGE | CHECKOUT
+    -------------------------------------------
+    Sort           | Reviews      | Pay with Pay Pal
+    Filter         | Media gallery| Pay with credit card
+                   | Description
+
+    -- These stories aren't particularly well developed, and there's no indication of how important each is. EX: A user needs to read a product description before ordering, but does that happen before or after they've read the reviews? And which offers more value to the user? After more reasearch is conducted, another iteration might look like this:
+
+    PRODUCT SEARCH | PRODUCT PAGE | CHECKOUT
+    User Journey---> ------------>  -------->
+
+    Filter by
+    category       | Description  | Add delivery info
+    Filter by color| Purchase     | Pay with PayPal
+    Filter by sytle| options      | Postcode lookup
+    Sort by price  | Media gallery| Pay with credit card
+    Sort by rating | Read reviews |
+                   | Sharing buttons
+
+    -- We've refined our user stories by breaking some of them down into small pieces, we've introduced a new dimension whereby stories are around in order of where they come in the user journey and we've started to arrange the highest priority stories near the top of our map. Eventually, we need to arrive at a map that indicates what stores need to bincluded in the first few releseases.
+
+    PRODUCT SEARCH          | PRODUCT PAGE          | CHECKOUT
+    User Journey ----------> ----------------------> ------------------->
+    RELEASE 1 -----------------------------------------------------------
+    Filter by category //    Description //          Add delivery info //
+                             Purchase options //     Pay with PayPal //
+
+    RELEASE 2 -----------------------------------------------------------
+    Filter by color //       Media Gallery //        Postcode lookup //
+    Filter by style //                               Pay with credit card //
+    Sort by price //    
+   
+    RELEASE 3 -----------------------------------------------------------
+    Sort by rating //        Read reviews //
+    Quick preview //         Sharing buttons //
+                             Add review //
+
+    -- STORY MAPPING IS AN ITERATIVE PROCESS
+    -- All this detail will have come from a conversation between team members and stakeholders about how best to deliver the most possible value for the user and the business as early as possible. The story map provides a way to visually represent ideas during the conversation, and way to record the outcomes that, unlike a flat product backlog, captures all the context of the user's journey.
+    -- The story map is always a work in progress. As we continue our discussions with users and stakeholders, as further evidence is gathered which validates or invalidates our assumptions, the story map can change and develop accordingly.
+    -- By grouping user stories by feature, the story map makes sure that we create meaningful releases which allow users to complete end-to-end journeys. It help us build our first release which is a minimum viable product and then iterate on it, bringing new value to the business and the user with each new release.
+
+WHAT IS A USER STORY?
+-- User stories are short and simple descriptions of capabilities. They are written from the perspective of a user or customer of the system. They typically follow a simple format:
+
+    "As a [user type], I want [some goal] so that [some reason]." or "As a [user type], I want [some goal] because [why]."
+
+-- EXAMPLES:
+    -- As a [valid user], I want [to access the system] so that [I can review my information].
+    -- As an [administrator], I want to [restrict access to the system to valid users] so that [I can ensure we protect user information.]
+
+10 TIPS FOR WRITING GOOD USER STORIES
+    1. Users Come First
+        -- A user story describes how a customer or user employs the product; it is told from the user's perspective. They are helpful to capture a specific functionality, such as, seaching for a product or making a booking.
+        -- If you don't know what users and customers are and why they would want to use the product, then you should not write any user stories. Carry out the necessary user research first, for example, by observing and interviewing users. Otherwise you take the risk of writing speculative storeis that are based on beliefs and ideas -- but not on data and empirical evidence.
+
+    2. Use Personas to Discover the Right Stories
+        -- Personas are fictional characters that are based on first-hand knowledge of the target group. They usually consist of a name and picture; relevant characteristics, behaviors, and attitudes: and a goal. The goal is the benefit the persona wants to achieve or the problem the character wants solved by using the product.
+        -- The persona goals help you discover the RIGHT stories. Ask yourself what functionality the product should provide to meet the goals of the personas.
+    
+    3. Create Stories Collaboratively
+        -- User stories are intended as a lightweight technique that allows you to move fast. Stories should never be handed off to a dve team. Instead, they should be embedded in a conversation.
+
+    4. Keep your Stories Simple and Concise
+        -- Write your stories so they are easy to understand. Avoid confusing and ambiguous terms, and use active voice. Focus on what's important, and leave out the rest.
+
+    5. Start with Epics
+        -- An epic is a big, sketchy, coarse-grained story. It is typically broken into several user stories over time -- leveraging the user feedback on early prototypes and product increments. You can think of it as a headline and a placehold for more detailed stories.
+        -- Allows you to sketch the product functionality without committing to the details.
+        -- It also reduces the time and effort required to integrate new insights.
+
+    6. Refine the Stories until they are Ready
+        -- Break up your epics into smaller, detailed stories until they are ready: clear, feasible, and testable. The story should not be too big and comfrtobaly fit into a sprint; and there has to be an effective way to determine if the story is done.
+
+    7. Add Acceptance Criteria
+        -- Acceptance criteria allows you to describe the conditions that have to be fulfilled so that the story is done.
+        -- They enrich the story, make it testable, and ensure that the story can be demoed or released to the users and other stakeholders.
+        -- As a rule of thumb, I like to use three to five acceptance criteria for detailed stories.
+
+    8. Use Paper Cards
+        -- This approach provides three benefits:
+            -- Paper cards are cheap and easy to use.
+            -- They facilitate collaboration: Every one can take a card and jot down an idea.
+            -- Cards can be easily grouped on the table or wall to check for consistency and completeness and to visualise dependencies.
+        -- Even if your stories are stored electronically, it is worthwhile to use paper cards when you write new stories.
+
+    9. Keep your Stories Visible and Accessible
+        -- Stories want to commincate information. Don't hid them on a drive! Make them visible, for instance, by putting them on the wall.
+
+    10. Don't Soley Rely on User Stories
+        -- Creating a great UX requires more than user stories. They are helpful, but they are not well suited to describe the user journeys and visual design.
+        -- Complement user stories with other techniques: story maps, workflow diagrams, storyboards, and mockups.
+        -- User stories are not good at capturing technical requirements. If you need to communicate what an architectural element like a component or service should do, the write TECHNICAL STORIES or use a modelling language like UML.
+        -- User stories are not about documenting requirements; they want to enable you to move fast and develop software as quickly as possible -- not to impose any overhead.
