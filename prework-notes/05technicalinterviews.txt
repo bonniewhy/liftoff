@@ -1,0 +1,105 @@
+NOTES ---
+
+PROJECT MODULE
+    -- How To Be a Good Mentee
+        -- Make sure that you are meeting with your mentor regularly. If it's not a consistent basis, you won't be able to fully take advantage of your mentor's guidance.
+        -- Building your network is your responsibility! Identify people in your mentor's circle to whom you would like to be introduced and ask your mentor to make the connection. Leverage your relationship with your mentor to meet people who will be important to you.
+        -- Ask your mentor for critical feedback. It's so important to learn your weaknesses so that you begin the important work of improving and strengthening those weak spots.
+        -- Discuss challenging assignments with your mentor. If you want to advance, you need to take on assignments that are out of your comfort zone. By talking these assignments through with your mento, you can benefit from their experience and use it as a helpful guide.
+        -- Be grateful. Mentors take time out of ther busy schedule to help you, so never forget to show your appreciation for the work they do. Thank them often. And PAY IT FORWARD!
+
+    -- How I Learned to Code in my 30s
+        -- Things the author learned from contracting as an independent junior engineer:
+            -- You spend as much time sourcing work as coding
+            -- Getting projects lined up back-to-back is very hard
+            -- You don't get a lot of technical feedback
+            -- Inconsistent income creates stress at home
+            -- There is no one to tell you if you are learning the right things
+
+        -- YOU ONLY TRULY FAIL WHEN YOU GIVE UP.
+
+        -- How the author got their internship
+            -- He found a connection and volunteered. The connection gave him an internship opportunity.
+
+        -- How to be a great intern
+            -- Try not to let five minutes go by without acknowledging a message.
+            -- Start answers with "yes" whenever possible.
+            -- Invest an exorbitant level of energy into your work. Your mentor will reflect your intensity.
+            -- Try not to ask your mentor what code does, or where a feature lives, before you have made an effort to find it, read it and understand it. If you still have a question, it will be more constructive.
+            -- 2AM pull requests always look like hard work. (Or, maybe in my case, 6AM ones?)
+            -- If you are serious, and you immerse, you will learn fast.
+
+        -- What the author learned from interning: Immersion is the secret to rapid learning.
+            -- Immersion means 100% focus. If possible, no friends, no drinking, no TV, just reading and writing code. If you take five minutes off to read the news, be aware you are breaking the mental state of immersion. Stay focused, be patient, your mind will adapt. Eliminate all distractions, of which you may find doubt to be the loudest. Immersion is teh difference between success and failure.
+
+            -- How do you know if you are immersing? If you are not dreaming in code, you are not immersing yet.
+
+        -- How the author got the job
+            -- After learning more and immersing, the author was way more confident.
+            -- Udacity has a technical interview course...
+            -- Know about algorithms, code challenges, and data structures.
+
+        -- FINAL THOUGHTS: IMMERSE, GET MENTORSHIP, and DON'T LOOK BACK! It will not be easy!!
+
+CAREER MODULE
+    -- How to prepare for (and ace) the technical interview
+        -- Once they narrow down the candidates, they then begin the technical interview to see who is the most proficient.
+        -- Some employers give homework in the form of programming or logic problems to complete before an in-person interview. If you're serious about the job, a little homework isn't going to deter you.
+        
+        -- TIPS AND TRICKS
+            -- Be articulate and comunicate clearly.
+                -- You must be able to articulate why a company should hire you.
+                -- "Companies want to see the candidate think in 'real time', and while you may be brilliant at what you do, in an interview you have to be able to communicate this brilliance."
+                -- It's good practice to take the time to go over what you would like to cover and how you want to present yourself.
+                -- Research information about your potential company on LinkedIn, Facebook, and Glassdoor. Some of these sites even detail the technical interview.
+                -- "You are selling you, so know your product and your audience, and have a plan going in. Study the job description, do some research on the people you will be meeting and definitely do some homework on the company beyond just their products."
+
+            -- Be ready to whiteboard
+                -- Practice ahead of time. It's "standard" (though VMLY&R doesn't do this)
+                -- Also, take advantage of online practice resources, such as CodeFights or HackerRank. Offer free, anonymous coding challenges to help developers build and practic their skills.
+                -- Programmers who complete 20 practice challenges on HackerRank -- equating to roughly ten to 20 hours of practice -- performed twice as well on skills assessments as programmers who didn't take the challenges.
+                -- Junior developers who solved 20 challenges, increased their chances by at least 15 percent.
+
+            -- Dive deeply into the job listing
+                -- Will give you insight into the technologies in use at the prospective employer and how best to apply your knowledge and skills to the problems they face.
+                -- "If it's in the job description, it's important to be able to talk to it and how you may solve the problems they are looking to fix. Make sure you really understand the technical requirements outlined in the job description. They were put there to provide guidance on what tht ecompany is looking for to ensure candidates are the right fit."
+
+            -- Shore up the fundamentals
+                -- The fundamentals of algorithms and data structures tend to be the focus of many technical screenings.
+                -- "Fundamental knowledge is ESSENTIAL."
+                -- Dive a little deeper into topcis about which you have only general knowledge.
+                -- There's no standard process for demonstrating your programming skills; sometimes terminology can differ between companies or even between two programmers skilled in the same language.
+            
+            -- Bring in a portfolio of your work
+                -- This can mean a physical notebook, a link to your GitHub repository, samples of projects you've worked on (CodePen, too!) -- anything that can serve as a real-world example of your skills and experience.
+                -- Self-taught developers often come up short when it comes to solution design and writing clean code. Study this!
+                -- Find a friend or someone to sit down with to review your code and give you feedback about how to make it better and cleaner. LISTEN!
+
+            -- Prepare yourself mentally
+                -- When preparing for the interview, you need to put yourself in the right mindset regardless of how your day is going.
+                -- "A lot of it is in the mindset you carry into the interview from a perparation standpoint."
+                -- GO over your notes and terminology, prepare some mental notes. Think about thing you want to say in the interview that demonstrate your experitse and ask yourself how you'll articulate that. Think about what questions the interviewer will ask you. Then, think about how you'd answer.
+                -- Don't be afraid to ask questions!! (Always. Anywhere, really.)
+                -- "If they ask a technical question, make sure you understand it before diving in and answering. If you don't know the answer, that doesn't mean you're dead in the water."
+                -- Companies aren't always looking for the "right" answer. Many look for soft skills and evidence of how you go about solving problems and resolving issues.
+                -- They're also evaluating you on how you talk about what you've done in the past as well as how you're thinking about and solving problems.
+                -- If you find yourself stumped, don't panic! (23!!)
+                -- It's possible you know the answer but your nerves have got the best of you and it's important to be honest about that. Just apologize and say something like, 'I just used that command last week, even though it's not coming to mind right now. If I was on the job, here is what I would do to find the answer.'
+                -- If it's something you really don't know, say something like, "Unfortunately, I ahven't had the opportunity to work with C#; however, I have so much experience in VB.NET that I feel like I can transition easily" or whatever
+                -- Don't lie!!!!
+                -- If you don't know, try and draw a parallel or make a connection between something relative that you have worked with or on.
+                -- Once you've answered the question and outlined your solution, finish up with a confirming question like "Did that answer your question? Did I provide you with the answer you are looking for? Is there any part you'd like me to go into more detail on?"
+                -- Don't assume, cause there could be a disconnect.
+
+            -- Have a strong closing
+                -- Many interviews end awkwardly. Use the last few minutes to ask questions about the company, the culture, the projects and initiatives the company's involved with, and especially to let the interviewer know why you're the right person for the job.
+                -- If there are specific aspects about your work history, skills or experience that weren't covered -- or that you want to reiterate -- this is the time to emphasize those.
+                -- After the meeting, jot down notes, thoughts or feedback yo have while the memorie are still fresh. WRITE DOWN THE INTERVIEWERS' NAMES, roles and any other relevent info.
+
+            -- Follow up and send a thank-you note
+                -- You want the interviewer to remember you for the right reasons.
+                -- Make sure to send a thank you note using the interviewers' names, recalling some of the high points of the interview and expressing why you're the right fit.
+    
+    -- 10 Tech Interview Errors
+
+    -- LaunchCode's Framework for Answering Interview Questions
