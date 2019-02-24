@@ -1,0 +1,28 @@
+NOTES ---
+
+UX --
+    -- Short for "user experience", and is the design discipline focused on making products that place primary importance on a user's experiences and interactions.
+    -- Wireframing is a technique used to sketch out web pages and views in a rough way that focuses on how elements are arranged and how users are likely to interact with them.
+    
+    -- Wireframing for UX
+        -- Used to communicate four things:
+            1. Structure: Your navigation and information architecture
+            2. Layout: Page hierarchy and the placement of elements on the screen.
+            3. Content: Give content light as an idea of how their content will be placed within the design.
+            4. Functionality: Can describe how your product will work and how it interacts for the people using it.
+
+        -- Low fidelity: Hand drawn sketch. A great way to flesh out ideas on your own or with your team. Fast to create and quick to iterate on. Anyone who can draw a square, a circle, and a triangle can create a sketch.
+
+        -- More traditional wireframe: Balsamiq OmniGraffle Illustrator and UX Pin are just some ways to make traditional wireframes. A way to communicate the idea to your team, your clients, and your stakeholders. Can be very useful to explain your product and exactly what you're building.
+
+        -- High fidelity: Clickable prototype. Let's you design interactions. Are the way to go when conducting usability testing. Axure, Keynote, or HTML with frameworks such as Bootstrap or Foundation.
+
+        -- Sometimes a quick sketch is all you need, other times an annotated wireframe is more appropriate. It really depends on the project and the stage you're at. Should convey just the right amount of detail, no more.
+
+        -- Few practical tips
+            1. Keep them simple. Key to wire framing is speed and simplicity. We'll ultimately throw them away so they don't need to be highly polished.
+            2. Use a grid. Grid's create structure and simplicity to your layouts. 
+            3. Short, sharp annotations. Team members actually read wireframes more than any other document. SO make sure you add annotations to your wireframes. Keep them brief and to the point.
+            4. Encourage feedback. Sharing your wireframes and encouraging feedback from your team members is a sure fire way to improve them. Stick them up on the wall and encourage your team and anyone else to give you feedback.
+
+    -- Getting Started with Wireframes

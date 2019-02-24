@@ -130,3 +130,64 @@ CAREER MODULE
                 "(CLAIM) Before I signed up for LC101, I decided to learn programming on my own and tried to make it through CS50x. I was not able to keep up with the pace of the class, and ultimately had to withdraw. I learned from this experience and was able to adapt some habits that made me successful in LC101. (EVIDENCE) When I first started CS50x, I was excited to learn to program, but didn't have any experience with programming. I watched the first lecture, and really enjoyed the Professor, David May, but when I got to the first assignment, I didn't feel that I knew how to solve the problem. I waited a couple of days after watching the video, and I struggled with setting up the environment CS50x wanted us to use. By the time I had everything set up and figured out how to solve the problem, my assignment was a few days late. This in turn made me a few days behind starting the next video, and then I was late on the next assignment, and after the first five or so weeks, I was overwhelmed and decided to drop the course. I watched the rest of the lectures, but didn't attempt any more assignments. I also found the forums students could use after dropping the course. I can clearly see the problems now; I started the assignments late, I was isolated from my other classmates, and I was not using outside resources to help me when I got stuck. So, I made sure that when I signed up for LC101 that I started my assignments early and asked questions often. I started a small study group to make sure I was working with other programmers and I used outside resources to help me when I was stuck. All three of these changes helped me excel in LC101, and now I feel confidence about my programming skills!"
 
                 -- This one is a little longer becuase they are trying to fully explain the situation as the interviewer doesn't want to JUST hear about the failure, but how they learned from it.
+
+    -- How to Answer the 10 Most-Asked Tech Interview Questions
+        https://www.indeed.com/prime/resources/talent/how-to-answer-the-10-most-asked-tech-interview-questions
+        
+        -- What are your weaknesses?
+            -- Naming a weakness that is actually a strength is the fastest way to come off as inauthentic. Your interviewer has seen it before and they will respect you (and trust you) less.
+            -- Show self-awareness (and remember how much your personally value it) and honesty by sharing a real weakness and then describe how you solve it.
+                EX: "Sometimes I lose drive in the middle of a project after the launch excitement has worn off. I combat that by breaking up the project into mini-milestones and celebrating them with my team. The original buzz gets recreated and it becomes obvious how crucial our work is."
+
+        -- How familiar are you with [specific programming language]?
+            -- Your interviewer is checking to see if you're comfortable with the language. You don't need to be a senior level expert!
+            -- Don't get hung up on your skill level per language. Instead, emphasize how well-versed you are in coding as a skill, and how well you solve problems.
+            -- They're not looking for perfection, but rather competency and drive.
+
+        -- The brainteaser or story problem
+            -- It is not a test of your intelligence. You're most likely in the same smartness range as the other applicants for this job, so your aptitude has already been vetted.
+            -- They are testing your sense of logic, your coolness under pressure, and your ability to openly think through problems while asking questions.
+            -- ANSWER THIS QUESTION CONVERSATIONALLY!
+            -- Talk your way through it. Ask clarifying questions. Be curious. Say you're thinking it through and figuring it out. Logically anaylze -- out loud -- the different ways to approach it. Talk through why you'd lean a certain way, and eventually give your answer.
+            -- REMEMBER: Getting a certain answer is far less important than coming across in real-time as verbal, open and analytical.
+
+        -- Have you interviewed anywhere else?
+            -- Play it safe. Keep your response laid-back and general.
+                EX: "Yes, I'm actively looking for other great roles like thils." Or, "I'm moving quickly with other companies with competitive offers."
+            
+        -- Do you work best alone or on a team?
+            -- Don't pick a side! Ideally, you should be a "master" of both solo, unsupervised work and agile collaboration.
+                EX: "I love the speed and energy of teamwork, and I also like concentrated time to work alone and execute on projects."
+
+        -- Why are you leaving your company?
+            -- Hiring managers are looking for honesty, but not baggage!
+            -- Emphasize positivity and your hopes for the future.
+            -- Don't say, "I'm cut off from collaborating and feel isolated." Say, "I'm looking to be a key player on a driven, talented team."
+            -- Don't say, "I'm unchallenged and need more to do." Say, "I'm really excited to grow and develop my skills and tackle new opportunities."
+
+        -- What salary are you looking for?
+            -- You want to diplomatically avoid answering becauase you don't know what their budget range is for the position, so giving a number in the dark could disqualify you if you're too low or too high.
+            -- Politely deflect by trying, "I'm sure what you're paying is in step with the industry norms." Or: "It's hard to specify a salary range becuase this is a new type of role for me." Or: "Based on what my responsibilities would be, I'm sure we can figure out compensation that makes sense."
+
+        -- The programming test
+            -- More likely to be in your 2nd or 3rd interview round. Be prepared for it in the first interview, just in case.
+            -- REMEMBER: The way you solve the problem is being evaluated just as much as your final answer.
+            -- Practicing increases skills, and being prepared makes you calme. So devote time to taking practice tests before the interview.
+                -- Codewars -- https://www.codewars.com/
+                -- Topcoder -- https://www.topcoder.com/
+                -- Hackerrank -- https://www.hackerrank.com/
+
+                Mock live-interview coding test:
+                -- Pramp -- https://www.pramp.com/
+                -- Gainlo -- http://www.gainlo.co/#!/
+
+        -- What do you do for fun?
+            -- This question is being asked because your interviewer wants to see your personality.
+            -- Simply smile and share what you enjoy doing. Your eyes will naturally light up, letting the interviewer know that you're fun and friendly.
+
+        -- What are your strengths?
+            -- The answer to this has been spelled out for you in the job description!
+            -- Look at the "Ideal Qualifications" section. Find two items that describe you, and brainstorm specific examples of how you demonstrated those characteristics on the job.
+
+    -- The Ultimate Guide to Acing Your Technical Interview
+        https://learntocodewith.me/posts/technical-interview/

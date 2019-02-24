@@ -1,0 +1,69 @@
+NOTES ---
+
+PROJECT MODULE --
+    -- GIT
+        -- Branching and Merging
+            -- Working in Contexts
+                -- Each featuer, bugfix, experiment, or alternative of your product is actually a context of its own: it can be seen as its own "topic", clearly separated from other topics.
+                -- In real world projects, work always happens in multiple of these contexts in parallel: (EX)
+                    -- While you're preparing 2 new variations of your website's design (context 1 & 2)
+                    -- you're also trying to fix an annoying bug (context 3)
+                    -- On the side, you also update some content on your FAQ pages (context 4), while...
+                    -- one of your teammates is working on a new feature for your shopping cart (context 5), ...
+                    -- and another collegue is experimenting with a whole new login functionality (context 6).
+
+            -- A World Without Branches
+                -- NOT working in clearly separated contexts can (and sooner or later will) cause several problems.
+                -- If your goal is to work professionally, you'll have to find a way to deal with multiple contexts in a professional manner.
+            
+            -- Branches to the Rescue
+                -- Beacuse a branch represents exactly such a context in a project and helps you keep it separate from all other contexts.
+                -- All the changes you make at any time will only apply to the CURRENT branch and all other ones will be left untouched. This gives you the freedome to both work on different things in parallel and to experiment becuase you can't mess up! In case things go wrong, you can always go back / undo / start fresh / switch contexts...
+                -- There's NO REASON NOT TO start a new branch when starting a new context, no matter how big or small it might be.
+
+                #3 GOLDEN RULE OF VERSION CONTROL:
+                    Branching is one of Git's most powerful features -- and this is not by accident: quick and easy branching was a central requirement from day one. Branches are the perfect tool to help you avoid mixing up different lines of development. You should use branches extensively in your development workflows: for new features, bug fixes, experiments, ideas...
+
+            -- Working with Branches
+                -- Branches aren't option in Git: you are ALWAYS working on a certain branch (the currently active, or "checked out", or "HEAD" branch).
+                -- The "git status" command tells us the in its first line of output: "On branch master"
+                -- "Master" branch was created automatically by Git. You can rename it or delete it, but most people just keep it. It is not special and works just like any other branch you'll make.
+                
+                git branch <branch-name> : creates a new branch
+                git branch : lists all branches
+                git branch -v : lists all branches with a little more data than usual
+
+                -- "git branch" only creates a new branch, but doesn't automatically switch to it.
+                
+                #4 GOLDEN RULE OF VERSION CONTROL:
+                    You should only commit code when it's completed. This doesn't mean you have to complete a whole, large feature before committing. Quite the contrary: split the feature's implementation into logical chunks and remember to commit early and often. But don't commit just to get half-done work out of your way when you need a "clean working copy". For these cases, consider using Git's "Stash" feature instead.
+
+            -- Saving Changes Temporarily
+                -- A commit wraps up changes and saves them permanently in the repository.
+                -- In your day-to-day work, there are a lot of situations where you only want to save your local changes temporarily.
+                
+                -- THE STASH
+                    Think of the Stash as a clipboard on steroids: it takes all the changes in your working copy and saves them for you on a new clipboard. You're left with a clean working copy, i.e. you have no more local changes.
+
+                    Later, at any time, you can restore the changes from that clipboard in your working copy - and continue working where you left off.
+
+                    You can create as many Stashes as you want - you're not limited to storing only one set of changes. Also, a Stash is not bound to he branch where you created it: when you restore it, the changes will be applied to your current HEAD branch, whichever this may be.
+
+                git stash : saves your working copy to the stash and goes back to the clean copy or whatever
+                git stash list : get an overview of your current Stashes; the newest Stash will alwyas be at the top of the list. Older stashes have higher numbers.
+
+                -- When you're ready to restore a saved Stash, you have two options:
+                    git stash pop : will apply the newest Stash and clear it from your Stash clipboard
+                    git stash apply <stashname> : will also apply the specified Stash, but it will remain saved.
+                    git stash drop <stashname> : deletes <stashname>
+
+                    If you don't specify the Stash name when using these commands, it will simply take the newest Stash.
+
+                -- When to Stash
+                    -- Stashing helps you get a clean working copy. While this can be helpful in many situations, it's strongly recommended...
+                        ... before checking out a different branch.
+                        ... before pulling remote changes.
+                        ... before merging or rebasing a branch.
+
+            -- Checking Out a Local Branch
+                -- 
