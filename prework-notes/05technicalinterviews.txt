@@ -94,12 +94,39 @@ CAREER MODULE
             -- Have a strong closing
                 -- Many interviews end awkwardly. Use the last few minutes to ask questions about the company, the culture, the projects and initiatives the company's involved with, and especially to let the interviewer know why you're the right person for the job.
                 -- If there are specific aspects about your work history, skills or experience that weren't covered -- or that you want to reiterate -- this is the time to emphasize those.
-                -- After the meeting, jot down notes, thoughts or feedback yo have while the memorie are still fresh. WRITE DOWN THE INTERVIEWERS' NAMES, roles and any other relevent info.
+                -- After the meeting, jot down notes, thoughts or feedback yo have while the memorie are still fresh. WRITE DOWN THE INTERVIEWERS' NAMES, roles and any other arelevent info.
 
             -- Follow up and send a thank-you note
                 -- You want the interviewer to remember you for the right reasons.
                 -- Make sure to send a thank you note using the interviewers' names, recalling some of the high points of the interview and expressing why you're the right fit.
     
     -- 10 Tech Interview Errors
+        -- Appearance: Don't just dress from "the waist up". Make sure your whole outfit looks good and presentable. Like you care about the job.
+        -- Arrogance: Confidence is desirable, not arrogance. That suggests "they can't be a team player." Try not to come across this way.
+        -- Overemphasizing Skills: You want to come across as more than an amalgam of your skills. Certifications and other credientials matter, as does your technical knowledge, but you're there to serve an organization's needs, not focus on J2EE or Cisco just for the sake of the technology itself.
+        -- Not communicating: Don't respond with too brief answers. You should think of each question as an opening to a conversation. "People who are unwilling to communicate will have a hard time working in a team environment."
+        -- Unprepared: Perparation doesn't just mean passing knowledge about a company, but rather in-depth research about the firm and its industry.
+        -- Lack of Interest: When you are asked if you have any questions, NEVER SAY NO. It communicates that you are not interested or not prepared.
+        -- Too Eager for Perks: Questions about parking spaces, sick days, free soft drinks, etc should be reserved for HR when you get the job offer. "Stay away from 'what's-in-it-for-me' questions."
+        -- Too Casual: The interviewer, not the candidate, should set the tone. Being too casual can come across as a lack of seriousness, or even a lack of interest in the job.
+        -- Too Negative: Don't mistake the interviewer's friendliness with an invitation to confide in them. Don't use your interviews as a therapy session.
+        -- Failure to Close: Make sure to close the interview. Emphasize how much you would love to join the company or ask what the next step is. Don't let it just fade out. You'll come across as not selling yourself.
 
     -- LaunchCode's Framework for Answering Interview Questions
+        -- PRO TIP: If you are more familiar with another strategy for answering interview questions, like the STAR method, feel free to use whichever strategy you are more comfortable with.
+
+        -- Claim and Evidence
+            -- Every question you get in an interview should include at least two things: your CLAIM and EVIDENCE to support your claim.
+            -- While a claim can answer a question directly, and interviewers like straightforward claim-type answers, but it's not usually enough.
+            -- They are trying to determine how you will do the job being offered, so, the best way to demonstrate that is to explain how you've behaved in similar situations.
+            -- The interviewer should not experience any confusion and have a strong understanding of the message you are trying to convey.
+
+                EX: "What is your greatest strength?"
+                "(CLAIM) My greatest strength is my ability to learn quickly by using multiple resources. (EVIDENCE) For example, LC101 requires all students to complete prep-work, attend lectures, participate in group activities, and complete assignments for every chapter. In addition to what LC101 required, I also set up an additional study group and invited all the students from my class to join. Our group of four regular members met on Saturday mornings; we would review the concepts covered in the course, and we worked through FreeCodeCamp's Front End Development lessons after we had completed our assigned LC101 work. Not only was I challenging myself to learn an additional programming language with this new resource, but it helped reinforce the concepts I was learning in LC101. Both Pythong and JavaScript use variables, loops, conditionals, data types, functions, etc. Now that LC101 has ended, I've been taking courses on Udemy, and am focusing on learning Angular."
+
+                -- This story contains a lot of evidence to suppor the original claim. Mentioning, Udemy, FreeCodeCamp, LC101, and additional collaboration in an organized small group. And sharing some specific things they've learned. The interviewer can further trust this person's claim because they have evidence to support it.
+
+                EX: "Tell us about a difficult project that you ultimately failed."
+                "(CLAIM) Before I signed up for LC101, I decided to learn programming on my own and tried to make it through CS50x. I was not able to keep up with the pace of the class, and ultimately had to withdraw. I learned from this experience and was able to adapt some habits that made me successful in LC101. (EVIDENCE) When I first started CS50x, I was excited to learn to program, but didn't have any experience with programming. I watched the first lecture, and really enjoyed the Professor, David May, but when I got to the first assignment, I didn't feel that I knew how to solve the problem. I waited a couple of days after watching the video, and I struggled with setting up the environment CS50x wanted us to use. By the time I had everything set up and figured out how to solve the problem, my assignment was a few days late. This in turn made me a few days behind starting the next video, and then I was late on the next assignment, and after the first five or so weeks, I was overwhelmed and decided to drop the course. I watched the rest of the lectures, but didn't attempt any more assignments. I also found the forums students could use after dropping the course. I can clearly see the problems now; I started the assignments late, I was isolated from my other classmates, and I was not using outside resources to help me when I got stuck. So, I made sure that when I signed up for LC101 that I started my assignments early and asked questions often. I started a small study group to make sure I was working with other programmers and I used outside resources to help me when I was stuck. All three of these changes helped me excel in LC101, and now I feel confidence about my programming skills!"
+
+                -- This one is a little longer becuase they are trying to fully explain the situation as the interviewer doesn't want to JUST hear about the failure, but how they learned from it.
