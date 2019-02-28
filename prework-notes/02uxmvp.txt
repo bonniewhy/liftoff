@@ -26,3 +26,57 @@ UX --
             4. Encourage feedback. Sharing your wireframes and encouraging feedback from your team members is a sure fire way to improve them. Stick them up on the wall and encourage your team and anyone else to give you feedback.
 
     -- Getting Started with Wireframes
+        -- Wireframe: A basic visual guide used to suggest the layout of fundamental elements in a web interface.
+        -- Invaluable in keeping everyone on the same page.
+        -- Get a clearer picture of the elements that need to be built.
+
+        -- Wireframes: Basic representation of design elements, used for communication and documentation.
+        -- Protype: Interactivity, used for interactive user testing, UI design
+        -- Mockup: Static visualization, branding, used for Stakeholder design buy-in.
+
+        -- What to include in a wireframe:
+            -- General elements when you plan every webpage: header, footer, sidebar and content areas.
+            -- Content. What will be displayed on this page?
+            -- Structure. How will the elements of this page be put together?
+            -- Hierarchy. How will these elements be displayed in positioning, labelling and size?
+            -- Functionality. How will these elements work together?
+            -- Behavior. How do these elements interact with the user?
+
+        -- Layered elements of a web page:
+            -- Surface brings everything together visually: What will the finished product look like?
+            -- Skeleton makes structure concrete: What components will enable people to use the site?
+            -- Structure gives shape to scope: How will the pieces of the site fit together and behave?
+            -- Scope transforms strategy into requirements: What features will the site need to include?
+            -- Strategy is where it all begins: What do we want to get out of the site? What do our users want?
+
+        -- What not to include in a wireframe:
+            -- Graphic elements
+            -- Lorem ipsum text
+            -- Actual design: should show how the site will work, not how it will look
+
+        -- Types of wireframes:
+            -- Sketchy: It shows the client that this is an ongoing process, and they can criticize and freely manipulate the elements and placements.
+            -- Digital: More formal and sophisticated look. Close to a  mockup. Especially good for clients who might have a hard time imagining the finished product with a sketchy wireframe.
+
+    -- What is a Minimum Viable Product (MVP)?
+        -- An MVP is the smallest thing you can build that delivers customer value (and as a bonus captures some of that value back, ie. gets you paid)
+        -- A minimum viable product is that version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.
+
+        Build-Measure-Learn Loop
+
+        Ideas --> **BUILD** --> Product --> **MEASURE** --> Data --> **LEARN**
+        Customer Interviews
+        Demos
+        Teaser Pages
+        Smoke Tests
+        Release 1.0
+        Concierge MVP
+        Wizard of Oz MVP
+
+    -- How is a teaser page or demo a product?
+        -- Many of the things above are really good tactics for testing interest in a product through the use of a faster proxy for the product like a teaser page or demo. But they aren't a product by themselves.
+
+        STRICTER DEFINITION OF MVP
+        A minimum viable product is the smallest thing you can build that delivers customer value (and as a bonus captures some of that value back).
+
+        The directive of an MVP is first and foremost racing to deliver on customer value.
