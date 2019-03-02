@@ -163,8 +163,21 @@ WHAT IS A USER STORY?
     9. Keep your Stories Visible and Accessible
         -- Stories want to commincate information. Don't hid them on a drive! Make them visible, for instance, by putting them on the wall.
 
-    10. Don't Soley Rely on User Stories
+    10. Don't Solely Rely on User Stories
         -- Creating a great UX requires more than user stories. They are helpful, but they are not well suited to describe the user journeys and visual design.
         -- Complement user stories with other techniques: story maps, workflow diagrams, storyboards, and mockups.
         -- User stories are not good at capturing technical requirements. If you need to communicate what an architectural element like a component or service should do, the write TECHNICAL STORIES or use a modelling language like UML.
         -- User stories are not about documenting requirements; they want to enable you to move fast and develop software as quickly as possible -- not to impose any overhead.
+
+_____________________________________________________________________________
+CLASS NOTES ---
+
+RECCOMMENDED FRONT END FRAMEWORKS --
+React
+Vue
+Angular
+
+Have a cohesive understanding of what you're doing, how you solved problems, how you've used the tools that LaunchCode is giving us, break down everything you did and what you learned and how you handled problems. This will help you to articulate how you handle problem solving in interviews and to others.
+
+If you're going to put it on your resume, make sure you know how to talk about it, why you were interested, and what you know. You can be honest about not knowing it / being very familiar with it.
+

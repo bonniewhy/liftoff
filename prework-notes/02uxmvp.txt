@@ -26,3 +26,11 @@ UX --
             4. Encourage feedback. Sharing your wireframes and encouraging feedback from your team members is a sure fire way to improve them. Stick them up on the wall and encourage your team and anyone else to give you feedback.
 
     -- Getting Started with Wireframes
+
+CLASS NOTES --
+    -- Ways to make a program
+        -- Top Down: Start with UX / top layer, then go to business, than data.
+        -- Bottom Up: Start with data, go to business, then design the UX.
+        -- Sandwich: Some people start with the top, some people start with the bottom, and then they meet in the middle and wire it up.
+
+    -- No one understands that the MVP is the smallest amount of functionality they can deliver, without the additional criteria of being sufficient to learn about the business viability of the product.
