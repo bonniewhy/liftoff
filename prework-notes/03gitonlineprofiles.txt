@@ -183,3 +183,16 @@ PROJECT MODULE --
             -- Most teams or companies define when their developers should stage, commit, and push. Once you get a job, you will learn what they'd like you to do.
             -- HIRING MANAGERS LOVE ACTIVE GIT PROFILES.
             -- Set a goal for yourself to contribute to your GitHub account a certain number of times each week, and by the end of this class you will have the start of a GitHub profile that hiring managers are intersted in.
+
+    -- Licensing
+    
+        -- The Legal Side of Open Source
+
+    -- Online Profiles
+        -- Technical Resume
+
+        -- GitHub Profile
+
+        -- LinkedIn Profile
+
+        -- 10 Examples of Highly Impactful LinkedIn Profiles
