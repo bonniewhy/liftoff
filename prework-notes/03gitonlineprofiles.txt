@@ -66,4 +66,120 @@ PROJECT MODULE --
                         ... before merging or rebasing a branch.
 
             -- Checking Out a Local Branch
-                -- 
+                -- git checkout <branch-name>
+                    Makes <branch-name> the current HEAD branch. All changes / commits made under this branch will not appear in the main branch until you merge them.
+                -- You can only have one HEAD at a time.
+
+            -- Merging Changes
+                -- Keeping commits separated in branches can be a huge help, but eventually you'll want to merge them into your "production" branch.
+                -- Integrating Branches - Not Individual Commits
+                    -- When merging, you don't have to (and can't) pick individual commits that shall be integrated. You pick which branch you want to merge and Git will figure out which commits you don't have in your current working branch.
+
+                -- Merging is "easy":
+                    1. Checkout the branch that should recieve the changes.
+                    2. Call the "git merge" command with the name of the branch that contains the desired changes
+
+                -- git log
+                    Will show what got merged and such.
+
+                -- In some situations, merging will result in one or more "merge conflicts" -- most likely because the exact same line was modified in two different ways. You'll have to decide which content you want by dealing with the merge conflict.
+
+            -- Branching Workflows
+                -- Shortlived Branches
+                    -- Be generous about creating branches for new features, bug fixes, and experiments (etc).
+                    -- Branches for these things share two important characteristics:
+                        -- They are about a SINGLE TOPIC and are used to isolate code belonging to this topic from any other code. EX: You shouldn't be creating a "shopping-cart" branch to then also commit code dealing with newsletter signup or bug#341 to it.
+                        -- They typically have a rather short lifespan, usually only until you've finished working on the topic (I.e. when the bug is fixed, feature is completed). Then merging the branch into the broader concept and then the branch can be deleted.
+
+                -- Long-Running Branches
+                    -- Other branches are used on a higher level. They represent states in your project lifecycle - like a "production", "testing", or "development" state. They remain in your project a longer time (or even all the time).
+                    -- A couple of rules belong to these types of branches:
+                        -- You shouldn't work on them directly. Instead, you integrate other branches (possibly feature branches or other long-running branches) into them, but rarely add commits directly to them.
+                        -- Often, long running branches have a hierarchy btween them: e.g. "master" is used as the highest-order branch. It should only contain production code. Subordinate to it exists a "development" branch. It's used to test developed features and is then integrated into "master"...
+
+                    -- Which long-running branches to create and how they should be used can't be generalized. It depends on the team and the requirements of the project. Clear rules must exist and be agreed on by everyone.
+
+                -- A Very Simple Branching Strategy
+                    -- One Long Running Branch Only
+                        -- This keeps things as simple as possible.
+                        -- In such a scenario, the "master" branch represents your production code.
+                        -- This has one important consequence: everything that gets merged into "master" must be stable! Tested, reveiwed, and approved by whatever methods else you have to assure quality.
+                        -- No work should happen directly on "master".
+
+                    -- Topic Branches
+                        -- Every time you start working on a new feature or bugfix, you should create a new branch for this topic. This is common practice and should become a habit for you.
+                        -- All new topic branches are based off the "master", since you only have one long-running branch. And when it's done, it should be merged back in.
+                        -- It is reccommended and simple to merge new stuff often from master into your development branch so that you're staying up-to-date and reducing the risk of merge conflicts (which are fucking awful!!)
+                        -- Golden rule: Code that gets integrated into "master" must be stable!
+
+                    -- Keep the Remote in Sync
+                        -- Remote and local branches can be completely independent from each other. However, it makes great sense to regard local and remote branches as counterparts of each other.
+                        -- You don't have to publish EACH of your local branches: it can make perfect sense to keep some of your branches privated e.g. if you're doing experimental stuff that you're working on alone.
+                        -- If you do publish a local branch, you should name it's remote counterpart branch the same.
+
+                    -- Push Often
+                        -- Publishing your work often via "git push" makes sure that everybody has always access to the latest dvelopments.
+
+                -- Other Branching Strategies
+                    -- The above strategy is best suited for small agile teams. Larger teams might need more rules.
+                    -- One particular workflow that might be worth a look is the popular "git-flow".
+                    -- But, you might find that properly learning the Git basics and agreeing on a common workflow in a team will make "supplements" like git-flow superfluous.
+        
+
+        -- Sharing Work via Remote Repositories
+            -- Introduction to Remote Repositories
+                -- 90% of version control work happens in the local repository: staging, committing, viewing the status or the log/history, etc. If you're the only person workgin on your project, chances are you'll never need to set up a remote repository.
+                -- Only when it comes to SHARING DATA with your teammates, a remote repo comes into play.
+                -- A few things that distinguish local and remote repositories from each other:
+                    -- Location: Local repositories are on the computers of team members. Remote repositories are hosted on a server that is accessible for all team members.
+                    -- Features: Technically, a remote repository doesn't differ from a local one: it contains branches, commits, and tags just like a local repository. A remote repository doesnn't have a working directory, just a bare .git folder.
+                    -- Usage: The actual work on your project happens only in your local repository: all modifications have to be made & committed locally. Those changes CAN be uploaded to a remote repository in order to share them with your team. Remote repositories are only thought as a means for sharing and exchanging code between developers -- not for actually working on files.
+                    -- Creation: You have two options to get a local repository onto your machine: you can either create a new, empty one or clone it from an existing remote repository.
+
+            -- Connecting a Remote Repository
+                -- When you clone a repository from a remote server, Git automatically remembers this connection for you. It saves it as a remote called "origin" by default.
+                -- Blah blah. You could do this in your sleep.
+
+            -- Inspecting Remote Data
+                -- You will not automatically see new commits or branches that your teammates published on a remote -- because you have to explicitly tell Git to update.
+                -- Fetch will not touch any of your local branches or the files in your working copy. It just downloads data from the specified remote and makes it visible for you. You can decide later if you want to integrate these changes into your local project.
+                -- git checkout --track <git-repo/remote-branch-name>
+                    -- creates a new local branch with the same name as the remote one
+                    -- Checks out this new branch, i.e. makes it our local HEAD branch and populates our working copy with the associated files
+                    -- "--track" flag establishes a so-called "tracking relationship" between the new local branch and the remote branch it's based on.
+
+                -- Tracking branches
+                    -- In general, branches have nothing to do with each other. However, a local branch can be set up to "track" a remote branch. Git will then inform you if one branch contains new commits that the other one doesn't have:
+                        -- If your local branch contains commits that haven't been published / pushed to the remote repository, your local branch is "ahead" of its remote counterpart branch by some commits.
+                        -- If your teammates, on their part, have uploaded commits to the remote, the remote branch will have commits that you haven't downloaded / pulled to your lcoal branch, yet. Your local branch is then "behind" its remote counterpart branch.
+                        
+                -- Tracking Connectinos Revisited
+                    -- By default, the "git push" command expects us to provide it with two things:
+                        -- To which remote repository we want to push.
+                        -- To which branch on that remote repository we want to push.
+
+                    -- Would look like this: (only if no tracking connecting was established)
+                        git push <remote-repository> <remote-branch>
+
+            -- Integrating Remote Changes
+                -- git pull
+                    Downloads new commits from the remote and directly integrates them into your working copy.
+
+            -- Publishing a Local Branch
+                -- git push -u origin <unpublished-branch-name>
+                    -- This command tells Git to publish our current local HEAD branch on the "origin" remote under the name "contact-form' (it makes sense to keep names between local and remote branches the same)
+                    -- The "-u" flag estabishes a tracking connection between the local and remote branches.
+        
+            -- Deleting Branches
+                -- git branch -d <branch-name>
+                    Deletes the local branch.
+
+                -- git push origin --delete <branch-name>
+                    Deletes the remote branch.
+
+        -- Regular Git Commits
+            -- When you've finished a user story you should stage, commit, and push. When you've squashed a bug, you should stage, commit, and push. If you are working before bed, before you call it a night, you should stage, commit, and push.
+            -- The more versions you have of your project, the more places you can revert back to.
+            -- Most teams or companies define when their developers should stage, commit, and push. Once you get a job, you will learn what they'd like you to do.
+            -- HIRING MANAGERS LOVE ACTIVE GIT PROFILES.
+            -- Set a goal for yourself to contribute to your GitHub account a certain number of times each week, and by the end of this class you will have the start of a GitHub profile that hiring managers are intersted in.

@@ -192,4 +192,45 @@ CAREER MODULE
     -- The Ultimate Guide to Acing Your Technical Interview
         https://learntocodewith.me/posts/technical-interview/
 
-CLASS NOTES --
+ANSWER THESE QUESTIONS --
+
+(10 Questions article)
+01. What are your weaknesses?
+
+02. How familiar are you with [specific programming language]?
+
+03. The Brainteaser or story problem
+
+04. Have you interviewed anywhere else?
+
+05. Do you work best alone or on a team?
+
+06. Why are you leaving your company?
+
+07. What salary are you looking for?
+
+08. The programming test
+
+09. What do you do for fun?
+
+10. What are your strengths?
+
+
+(Class questions)
+01. Why do you want to be a programmer?
+
+02. What do you consider to be your greatest strength?
+
+03. What do you consider to be your greatest weakness?
+
+04. Tell me about a conflict you have had with a coworker, teammate, or customer.
+
+05. What's a project that you are proud of? Why are you proud of it?
+
+06. What's the most interesting part of your personal project?
+
+07. What's the most challenging part of your personal project?
+
+08. Tell me about your problem solving process. When you encounter a technical problem, how do you solve it?
+
+09. Tell me about yourself.
