@@ -190,9 +190,320 @@ PROJECT MODULE --
 
     -- Online Profiles
         -- Technical Resume
+            -- Need to quickly summarize your skills, give evidence of those skills, outline your learning journey so far, and then include everything else you would typically include with a resume.
+                1. Personal Information
+                    -- You must include your first and last name, a phone number where you can be reached, and a professional email address.
+                    -- Also include a link to your GitHub profile, your LinkedIn profile, a physical address (Reggie said it was optional and he never does this), and a link to your personal website (if you have one).
+                    -- A professional address is some variation of your name.
+                2. Summary of Technical Skills
+                    -- Prioritize programming languages, frameworks, and major libraries over operating systems and software.
+                    -- Order skills from most familiar, to least familiar.
+                    -- Consider the type of job you are looking for when arranging these things.
+                    -- DO NOT include every language or technology you've heard of, only the ones you'd feel comfortable with building a project today.
+                    -- An entry level developer will usually include fewer than 10 skills on their resume.
+                3. Technical Experience
+                    -- After listing the skills you have, you need to back up your skills with some experience you've gained with those skills. Do this by mentioning projects you have COMPLETED (My mock interviewer said don't include projects that aren't finished), or by outline professional experience that required the use of those skills.
+
+                    -- For project resumes, include:
+                        -- The project name
+                        -- A breif description of the project
+                        -- Skills used in the project
+                        -- A key feature of your project
+                        -- GitHub repo link
+
+                        EX:
+                        PROJECT EXPERIENCE:
+                        Household Budgeting Web-App -- www.familybudget.com
+                        A web-app that allows user to add members to their household and track incomes and expense by categories.
+                            -- Java, Spring, Hibernate, Thymeleaf, MySQL, HTML, CSS, and jQuery.
+                            -- Aside from the budge tracking features, it utilizes Spring Security to allow for secure authentication to the web server.
+                            -- github.com/mygithubaccount/family-budget.git
+
+                        Blogz
+                        A school project completed in LC101, it allows users to sign up, create, and read blog posts.
+                            -- Python, Flask, SQLAlchemy, Jinja, MySQL, and HTML.
+                            -- Beyond the assigned tasks, I included a feature that allows users to delete, or edit their owned blog posts.
+                            -- github.com/mygithub.account/blogz
+
+                        Personal Portfolio -- myportfolio.com
+                        A portfolio I am currently building. It will eventually contain links to my other projects, and document what I am currently learning.
+                            -- React, JavaScript, HTML, CSS, and Bootstrap
+                            -- I am currently learning React to incorporate into this project.
+                            -- github.com/mygithubaccount/portfolio
+
+                        -- YOU SHOULD INCLUDE A LIVE LINK TO YOUR PROJECT IF IT IS ACTUALLY CURRENTLY DEPLOYED.   
+                        
+                4. Technical Education
+                    -- You need to show how you learned your technical skills. Include college courses you've taken, programs you've been a part of, books you have worked through, and MOOC's you have completed.
+                    -- MOOC stands for Massive Open Online Course. I.E. Udacity, Udemy, EdX, KhanAcademy, etc.
+
+                    EX:
+                    TECHNICAL EDUCATION:
+                    LC101
+                    20 week program that focuses on programming fundamentals, web basics, and more advanced concepts with Java.
+                        -- Curriculum covered: Python, Flask, Jinja2, SQLAlchemy, MySQL, Java, Spring, Hibernate, and Thymeleaf
+                        -- Built multiple class projects
+
+                    TeamTreeHouse.com
+                        -- Worked through the Java, Spring curriculum of TeamTreeHouse.com
+                        -- Skills: Java, Eclipse, Spring, Spring Security, Hibernat, and JDBC.
+                        -- Videos to cover concepts, and projects to practice concepts.
+
+                    CS Courses from UMSL
+                        -- Completed 4 CS course from UMSL
+                        -- Intro to Java Programming, Java Programming II, Intro to Databases, and Operating Systems I
+
+                5. Other Experience
+                    -- After including all the technical stuff, this is where you put your non-technical work experience.
+
+                    EX:
+                    WORK EXPERIENCE:
+                    Assistant Manager, Upper Limits
+                        -- Day to day operations of a rock climbing gym, tending register, performing saftey inspections, assisting customers, cleaning
+                        -- Worked with Managers to plan, and run special events including Birthday Parties, Corporate Team Building, Climbing Competitions
+                        -- Taught Rock Gym 101 - teaching novice climbers about top rope climbing, both how to, and necessary safety precautions
+
+                    Manager/Technical Support, Cellular Communication
+                        -- Provide technical support & information about mobile devices
+                        -- Troubleshoot hardware / software problems for customers, and in house computers
+
+                    -- This section can be quite long dbepending on the jobs you have had so far.
+                    -- You should try to include as much of it as possible, but focusing primarily on your experiences with problem solving, learning new things on the job and working with others.
+
+                6. Other Education
+                    -- If you have any other formal education you didn't include in the Technical Education section.
+
+            -- Final Notes
+                -- YOUR RESUME SHOULD NOT BE LONGER THAN 2 PAGES!
+                -- If it is, try to eliminate sections from your non-technical education or non-technical work experience. If you're still short, try reducing the number of bullet points for each item of your resume.
+                -- FOCUS ON SHOWING YOUR PROBLEM SOLVING SKILLS!!
+                -- You can make a master resume to keep track of everything, however, when you're applying for jobs and sending a professional resume, you don't want it to be longer than two pages. If you can, try to get it on one page.
+
+        http://blog.thefirehoseproject.com/posts/personal-branding-software-developer/
+        -- PERSONAL BRANDING AS A SOFTWARE DEVELOPER
+            -- It is too easy to communicate through your personal branding in ways that pretty much ensure they will not move forward with you in the hiring process. Could be in your cover letter, resume, or in-person interview.
+
+            -- MISTAKE #1: Nobody Hires Aspiring Developers, People Hire Developers
+                -- It's subtle, but important. EX: Two people offer to give you a hair cut, one says, "I'll cut your hair, I am a hairdresser." and the other says, "I'll cut your hair, I want to become a hairdresser someday." Most people will completely dismiss the second person with the expectation that they don't know what thier doing.
+                -- IF YOU SEND A MESSAGE THAT YOU ARE AN "ASPIRING DEVELOPER" RATHER THAN A "DEVELOPER", EMPLOYERS WILL IMMEDIATELY CONSIDER YOU TO BE UNQUALIFIED FOR THE POSITION.
+                -- Even if you have a different job, you are a web developer first. Your identity is full-time web developer, your second job is what you use to pay the bills.
+                -- In every intereaction, speak from the perspective of someone who is currently a web developer, not someone who maybe someday will be one.
+
+            -- MISTAKE #2: Not Letting Your Personality Shine Through
+                -- There are many successful career paths you can take. Startups need help with a variety of things. What makes development an interesting field for you?
+                -- Becoming a web developer isn't easy. What's gotten you through the process?
+                -- PASSION IS CONTAGIOUS! Take some time to recognize exactly what makes you passionate about programming.
+                -- Employers are selfish. People generally agree that employees who genuinely love what they're doing will work longer hours and be more productive than the ones who are working principally for the paycheck. (Duh...! Haha)
+                -- Having passion is a trait that you should express rather than hide.
+
+                -- Some reasons you may be passionate about web development (cause I can't exactly put my finger on it... haha):
+                    1. There are very few other crafts where you can build something real with only a text editor and time. There is something really satisfying about starting a project from scratch and building it into something that someone else can use.
+                    2. It's not easy! The fact that there will always be additional challenges, more things to learn, and new technologies means that every single day, you can learn and grow as a developer. If you're embarking on a career as a web developer, you'll never be bored.
+                    3. Programming can be fun! The satisfaction of solving complicated problems is REAL. The experience is incredibly rewarding, which is why many programmers suffer from a programming addiction.
+
+                -- "How to Recognize a Good Programmer" top answer on Stack Overflow:
+                    -- "Get them to talk about what they're interested in. I have yet to meet a developer who is really passionate when talking about programming, but can't actually code. They may well exist, of course - and your interview should check for competency as well - but passion is a good indicator in my experience. (Note that that's not the same as being about to "talk the talk" in terms of buzzwords.)
+                    
+                    Ask them what they don't like about their favorite language or platform. How would they fix things? What would they like to see in the next version? Do they have hobby projects? If they've got a blog, read it. Check their general online presence."
+
+                -- "Choosing between two programmers: experience vs. passion." top answer on StackOverflow:
+                    -- "Hire the inexperienced programmer with a passion for the craft. A passionate programmer will earn quickly, care about his work and enjoy doing it. I've worked with both types of programmers and I would always hire the passionate type over the experienced.
+
+                    People who don't care about thier work eventually lead to problems in quality as well as in meeting deadlines.
+
+                    Since you explicitly state that you have the resources to train someone, this is a no brainer. Hire the passionate programmer."
+
+                -- If you're just starting out and you don't have the experience, your love of programming will need to shine through to counterbalance your lack of experience.
+                -- YOUR PERSONALITY IS YOUR GREATEST ASSET!
+
+            -- MISTAKE #3: Omitting Relevant Details
+                -- Many people have had exposure to programming for longer than they take credit for. A college class, a hobby as a child, etc.
+                -- Find things you've done in previous roles and find ways for those tasks to connect to development.
+                    -- Analyzing problems and building systems and processes to solve them.
+                    -- Automating processes and making sure they execute flawlessly.
+                    -- Using technology to solve problems efficiently.
+
+                -- Highlight previous experiences in which you've done tasks similar to these. If you looked hard enough, you can problem find examples of when you acted in a role that was similar to that of a web developer.
+                -- Use any tool in your belt to add credibility to your claim that you are developer. SOMEONE WHO HAS REKINDLED AN OLD PASSION has more credibility as a developer than someone who started 2 weeks ago!
+                -- Take any credit you can, amd make sure to include any instance in which you've used technology, automated processes or build systems on your resume. Whether you used code to make it happen or not.
+
+            -- MISTAKE #4: Trying to Know Everything and Not Being Open to Learn
+                -- Be honest and authentic about what you aren't an expert in!
+                -- In general, people don't trust know-it-alls, and trying to trick your way into a position won't get you anywhere. Here's why:
+                    -- One of the best qualities in a developer is a strong desire to continue to learn and be mentored by more senior developers! Especially try for the position of JUNIOR ENGINEER who is hired based on an investment in their long-term potential.
+                -- Take the opportunity to show a willingness to learn new things. This isn't the same as expressing a willingness to take any offer you can get -- you'll likely end up among the people who struggle to land a job as a developer.
+                -- The devs who get multiple offers are the ones who indicate a few traits:
+                    -- A desire to grow and continuously learn the craft of engineering
+                    -- Wanting to not just "get things done," but to desire to do things the right way. The buzzword "best practices" is something that will interest senior developers quite a bit.
+                    -- Knowledge, experience, and willingness to write code in a "test-driven manner, keeping the red/green/refactor tight"
+                    -- A desire to have a senior developer take you under their wing as a mentor to pair program and learn from the best.
+                    -- A genuine interest in the company, its particular size, and engineering culture.
+
+                -- SUMMARY: strong willingness to learn, humblness, and an open mind to new, better, or different approaches to engineering.
+
+            -- PERSONAL BRANDING 101: Hone Your Storytelling Ability
+                -- In every interaction -- cover letter, resume, phone screen, or interview -- the employer is looking to answer the question "WHO ARE YOU!?"
+                -- Take the time to figure out who you are before trying to communicate it to other people.
+                -- "Tell me about yourself" Ensure the following is true in your answer:
+                    -- YOU ARE A WEB DEVELOPER: Not an aspiring one, you are not refocusing your career, and you are not hoping ot start a career in web development.
+                    -- SHOWCASE YOUR PASSION FOR THE CRAFT: What makes you live, breathe, and sleep code? Weave this into your identity.
+                    -- BRING IT TOGETHER: Figure out a way to explain that "you've been a web developer your whole life, even though you only got serious about it recently."
+                    -- FEATURE A SINGLE PROJECT YOU'RE WORKING ON: Be read to explain WHY you're working on it, why it makes you excited, and what the next features you're planning ot build are.
+
+            -- CASE STUDIES: THREE JUNIOR DEVELOPERS WITH STRONG PERSONAL BRANDS
+                -- Person #1:
+                    -- Before: After many years as a high school math teacher, I am refocusing my career path towards web developent. I am looking for a full-time job as a junior full-stack web developer and improving my skills as a programmer.
+                    -- After: I am a web developer with experience primarily in Ruby on Rails, but with an interest in JavaScript and the front-end of applications. In a previous career, I was an 8th grade high school math teacher. When I started, the students didn't have a grasp on the fundamentals they needed, but after uncovering the problem, I dveloped the curriculum and process to help my students master linear algebra. I have been programming as a hobby since childhood, and I recently rekindled this passion. I seek a role as a web developer at a company where I can learn, grow and continue to master the craft.
+
+                    -- KEY TAKEAWAYS:
+                        -- The first sentence focuses specifically on web development and dives right into technology and CODING EXPERIENCE.
+                        -- Since web development is all about problem solving, use opportunities to explain situations in which you've uncovered solutions and fixed them through implementing processes or technologies.
+                        -- Finally, the new persepective shows a willingness to learn and grow as a developer.
+
+                -- Person #2:
+                    -- Before: I am an aspiring web developer who is looking to start a career building web applications. My previous career was a designer, where I led a small team.
+                    -- After: I am a software engineer that has skills in both the back-end of web applications and the front-end. My previous career as a designer brough me close to my true passion: building web applications. I wasn't satisfied with only being involved in the visual aspect, and wanted a deeper involvedment in building out applications. In the next phase of my career, I not only want to use my design skills to make the application look beautiful, but I also want to work on the technically challenging facets of the application, too. At my ideal company, I would work on a small team (5 - 8 people) that follows best practices like Test Driven Development and pair programming to help me learn and grow as a developer.
+
+                    -- KEY TAKEAWAYS:
+                        -- Again, the first sentence presents the person as a software engineer first, in the present tense, and without back-peddling.
+                        -- There are a number of professions with which web developers interact on a regular basis: product managers, designers, customer service, and even sales teams. If you happened to work in one of these fields, talking about "looking from the outside in" is a neat trick to boost your credibility as a web developer.
+                        -- If you hae a skill set that most developers don't bring to the table, and it could be relevant, mention it. An eye for design is something that is highly relevant to building beautiful, modern web applications.
+
+                -- Person #3:
+                    -- Before: After graduating college with a Master's in philosopy, I am starting a career as a web developer. I'm a hard worker with a positive attitude.
+                    -- After: I am a programmer with strong skills in Ruby and Rails, and have an interest in solving algorithmically complex problems. I have a passion for problem solving. Currently, I am building a web application that is a marketplace where people can subscribe to other users to get access to video content they produce. The application currently has 25 active users.
+
+                    -- KEY TAKEAWAYS:
+                        -- Again, programming skills are mentioned up front.
+                        -- You might have a compelling way to tie in your previous experiences and how they're relevant to a job as a web developer. When this happens, focus on the things you can control: projects you've built. If the product you're building is impressive, if you have any active users, or if it's polished and looks slick, people will know you're passionate about development.
+
+            -- DON'T FALL PREY TO THE BIGGEST MISTAKE OF ALL
+                -- Take a moment to really think through what your web developer identity is:
+                    -- How can you make your background in a different field relevant for the current field?
+                    -- What are situations in which you've problem solved by developing processes or automation to remove obstacles?
+                    -- What excites you about whatever project you're currently working on?
+
+                -- Once you figure out the answers to these questions, everything else will come naturally.
+        
+        http://www.lifeclever.com/give-your-resume-a-face-lift/
+        -- GIVE YOUR RESUME A FACE LIFT
+
+        https://www.reddit.com/r/jobs/comments/trja0/how_to_write_a_branding_statement/
+        -- HOW TO WRITE A BRANDING STATEMENT
+            -- Be concise (just two or three sentences).
+            -- Quickly estabilish your qualifications.
+            -- Highlight the way in which you plan to make a positive impact.
+            -- Be written in "implied first person".
+
+            1. Start with a title.
+                -- This is straight forward and -- like all parts of the resume -- should be adjusted based on the positions to which you apply.
+            
+            2. The first sentence of the Branding Statement should speak to your high-level qualifications.
+                -- Should be about education, most impressive accomplishments. Probably include LaunchCode.
+            
+            3. The second sentence should speak to the kind of impact you intend to make.
+                -- Someone with little professional experience will have to treat this as more of an aspirational promise. Start by asking yourself what success would look like in the position to which you are applying (HINT: The job requisition is a good way to identify this.) The answer to that question is the basis for the second sentence.
 
         -- GitHub Profile
+            -- Useful to show potential employers projects you've completed, how often you work on projects, how long you've been a programmer, and the different languages and technologies you've worked with.
+
+            -- Username should be professional. CHECK!
+            -- First impressions are very important, so your profile picture should be a nice shot of your face. CHECK!
+            -- Bio is important!! Should quickly state who you are and what you're looking for. EX: I recently completed LC101 and am currently learning more about Java, Spring, and Hibernate. I am actively looking for development positions.
+            -- Pinned repositories. CHECK!
+            -- Project Readmes. 
+                -- Includes requirements of your project, if someone wants to clone and run your project, and a brief description of what your project does. 
+                -- You should have a project readme file for every project you want to share with a potential employer! 
+                -- Gives you an ability to explain to the interviewer what the project does, what skills were used in the project, and what you will do with the project in the future.
+                -- You can also add in a requirements section that shows what dependencies and environment they will need to use to run the project.
+                -- You can also include images in your markdown file that may include screenshots of wireframes, actual views, or model diagrams of your project. That way you can show more than the actual project itself.
+
+            -- GITHUB IS PUBLIC
+                -- Anyone can search for it, and view any of the information on your profile. So share carefully!
 
         -- LinkedIn Profile
+            -- Think of this as your digital resume! It should contain your professional experience, skills, and education.
+            -- GitHub is a great demonstration of your technical skills, but the LinkedIn should be geared towards the HR department, giving you a chance to further explain yourself.
+            -- Professional email and nice looking headshot!
+            
+            -- Contact Information
+                -- Should include your professional email address and your phone number.
 
-        -- 10 Examples of Highly Impactful LinkedIn Profiles
+            -- Summary
+                -- Most interviewers read this to get a high level understanding of what you are looking to do. THIS IS YOUR BRANDING STATEMENT.
+
+            -- Core Skills
+                -- This is the area where you may like to include some of the hard technical skills you are searching for, and other soft skills you have accumulated from non-tech education or experience.
+
+            -- History
+                -- An advantage of LinkedIn over a resume is that you can greatly expand upon your work history and education. You can also use the social networking aspect of it to connect with past coworkers and classmates that can verify the skills you include in your profile.
+
+        https://www.codementor.io/learn-programming/9-linkedin-profile-tips-for-junior-developers
+        -- 9 LINKEDIN PROFILE TIPS FOR NEW DEVELOPERS
+            -- 94% of recruiters use LinkedIn to find candidates. Despite the heavy recruiter and hiring manager presence on the platform, only 36% of job seekers are active on LinkedIn! This leaves you with a huge advantage!
+            
+            -- Tip #1: Get your profile to 100%
+                -- A complete profile is 40x more likely to receive opportunities through LinkedIn.
+                -- Ranks higher in the internal algorithm, meaning you're more likely to be discovered in search results.
+
+                -- Here's what makes your LinkedIn profile an all-star profile:
+                    1. Profile picture
+                    2. Location and industry
+                    3. Experience (a current position, with a brief description, plus two previous positions)
+                    4. Skills (at least 3)
+                    5. Education
+                    6. At least 50 connections
+
+            -- Tip #2: Keywords are really important.
+                -- Make sure the algorithm sends the right people your way by emphasizing the specific things you want to work with, such as particular languages and frameworks.
+                -- Make sure to REMOVE skills and technologies you are not interested in working with. Or at least de-emphasize them.
+
+            -- Tip #3: Use the summary section to your advantage.
+                -- This is your only chance to freely write on LinkedIn. Tell your story and describe what motivates you.
+                -- Don't use the word "motivate"! (The most over used word in summaries across all industries)
+                -- So examples of how you are motivated, eg. "After discovering my passion for web development, I couldn't get enough. I made websites for friends and family, interned with a local business, and hired myself out as a freelance. I'm looking forward to bringing that pass to a full-time role."
+                -- Include technologies and languages you want to work with.
+                -- Write in first person -- like you are talking to a person, explaining what you do. Use your voice and sound natural.
+                -- LinkedIn can tell when you're trying to game the system, so don't overuse keywords.
+                -- Make sure your summary is 40+ words.
+
+            -- Tip #4: Include a call-to-action
+                -- You want people to be prompted to find out more about you, off your LinkedIn profile.
+                -- EX:
+                    1. Feel free to contact me directly at <your email>
+                    2. Check out some of my design samples at <portfolio site>
+                    3. See my GitHub repositories at <github profile>
+
+                -- The idea is to intrigue hiring managers and recruiters; get them wanting to find out more about you, so they click to learn more or even reach out.
+
+            -- Tip #5: Order your sections to draw attention to your most impressive experience
+                -- You work in a job unrelated to web development right now, so your "Experience" section won't impress recruiters. You have taken some courses or done individual projects for yours or others, make sure to drag those higher on the hierarchy of your profile.
+                -- Don't remove unrelated experience, rearrange to show projects first!
+
+            -- Tip #6: Highlight transferable skills
+                -- If you're tech skills are not all there yet, make sure to highlight any skills that may transfer from your current and previous non-tech positions.
+                -- Remember: show, don't tell!
+                -- Below are five transferrable skills which are valued in any role:
+                    1. Communication skills, which can include writing, negotiating, presenting, and teaching / mentoring.
+                    2. Teamwork or collaboration. Show you know this by mentioning collaboration tools you've used, give examples of ways you've worked with clients or teams, etc.
+                    3. Planning and organization skills mean you are organized in though, communication, and workflow. Demonstrate this by showing processes you've developed.
+                    4. Ability to manage multiple responsibilities means you can multitaks without getting stressed, rank your priorities, and stay disciplined.
+                    5. Problem-solving skills means you can troubleshoot issues in new ways.
+
+                -- Always note software / tools you are familiar with, such as Salesforce, Infusionsoft, Microsoft Excel, Asana, etc.
+
+            -- Tip #7: Show examples of your work
+                -- Especially important if you don't have a lot of experience to show yet.
+                -- Add media to the summary, experience, and / or education sections.
+                -- Inlcude links to your portfolio, Github, codepen, or blog.
+                -- You could do a challenge! (You so should. First YouTube series?)
+            
+            -- Tip #8: Include your education
+                -- Shows that you've studied and been tested on your tech knowledge, and you value self-improvement.
+                -- People who fill out education section recieve 10 times more profile views than those who leave it blank.
+                -- It doesn't need to be all formal college education! Coding bootcamp, yeah!
+                -- There are two other sections titled "Certificates" and "Courses" where you can list things like a nanodegree from Udacity, courses you've taken on Codementor, etc.
+
+            -- Tip #9: Hide the "People Also Viewed" box on your sidebar
+                -- You're just making it easier for a recruiter, hiring manager, or client to scope out your competition.
+                -- Take the box off your page by visiting "Privacy & Settings"
