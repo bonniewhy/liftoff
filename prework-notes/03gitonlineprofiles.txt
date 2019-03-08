@@ -185,8 +185,13 @@ PROJECT MODULE --
             -- Set a goal for yourself to contribute to your GitHub account a certain number of times each week, and by the end of this class you will have the start of a GitHub profile that hiring managers are intersted in.
 
     -- Licensing
-    
         -- The Legal Side of Open Source
+            -- When you make a creative work (such as writing, graphics, or code), that work is under exclusive copyright by default.
+            -- This means that nobody else can use, copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation.
+            -- Open source is unusual because the author expects you to use, modify, and share the work. That's why you need a license.
+            -- Making your GitHub project public is not the same as licensing your project!
+            -- If you want others to use, distribute, modify, or contribute back to your project, you need to include an open source license.
+            -- Go to choose a license to pick which standardized license will work for you.
 
     -- Online Profiles
         -- Technical Resume
