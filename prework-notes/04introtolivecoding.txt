@@ -1,0 +1,40 @@
+NOTES ---
+
+LIVE CODING STEPS --
+    1. Gather Requirements
+        -- The interviewer will often give you requirements that are intentionally vague.
+        -- The first thing you should do is gather additional requirements and clairify what is expected of you.
+
+    2. Break Problem Down
+        -- Identify what needs to be done first, and then what needs to be done after that.
+        -- Gives you an opportunity to focus on one aspect of the problem at a time.
+
+    3. Psuedocode
+        -- Once you have a grasp on the intended solution, you can start working on the logic of the problem with HIGH-LEVEL psuedo code, start using buzz words like loop and such that might be a possible solution.
+        -- Psuedocoding the problem promotes communication around the proposed solution. It is a way to share your thought process with the interviewer without starting to code.
+
+    4. Write Syntax
+        -- Now we can actually start writing down the syntax!
+        -- You should be talking through your actions as you write the code down. This shows that you have the ability to communicate effectively with another developer.
+        -- As you write code, there might be more things you need to clarify, and you should totally do so by asking the interviewer.
+        -- Very rarely will you write something perfect from top to bottom.
+
+    5. Test
+        -- As programmers, we don't usually get the right answer on the first try, and without our debugger to point us in the correct direction, we are left to walking through the test case ourselves.
+        -- Keep track of the variables and how they change on the side as you walk line by line through the code.
+        -- Compare your test case with the agreed upon solution after you're finished.
+
+    6. Make Changes
+        -- When testing your solution, you will more than likely find that you made a mistake which can be a great thing in a live coding session!
+        -- Take a step back, and try to figure out where te mistake is happening. This is usually very apparent in the testing phase.
+        -- You want to show the interviewer you have strong problem solving skills, and part of the problem solving is being able to figure out mistakes you have made in your own solution, and then fixing them.
+        -- Fix it, then test again!
+
+WHITEBOARDING TIPS
+    -- Slow down, chill-out, and try to write as neatly as possible. This will help you stay organized and focused and will also help the interviewer understand whether the code actually does what it is meant to.
+    -- The interviewer wants to see how you handle uncertainty and what assumptions you make, so they will leave questions intentionally vague. Ask questions! As you are answering the question, talk through what you are doing and what your thought process is.
+    -- Code how you'd normally code. Don't get lost in your answer. Hopefully you wouldn't write a 50-line function in "real" life, so don't do it in your interview! Break up your code!!
+    -- Check your work! Take a minute to run through the code with some sample input. Your interviewer won't mind you taking the time to do this, in fact, they'll probably be impressed. Think about how you would unit test the code and write them up on the board.
+    -- Practice! Brush up on algorithms and read about the latest technologies and best practices. Take an hour and code something up on a whiteboard (or paper if you don't have one). Search the web for sample questions - ignoring any site that takes about manhole covers. (What?) When you're done, take your code and test it on the computer. Learn from your mistakes.
+    -- Research the company you're interviewing with. Try to seem interested and enthusiastic about what they do. You'll undoubtedly get asked about the company's products and "why you want to work there". Figure out what you'll say ahead of time so you don't have to try to come up with something on the spot.
+    -- Have fun! Be curious and enjoy the challenge. You'll get more out of the process and probably come across better all the more because of it. As well as seeing if you are capable, the interviewer is also looking to see if they would WANT to work with you.
