@@ -196,3 +196,6 @@ PROJECT MODULE --
         -- LinkedIn Profile
 
         -- 10 Examples of Highly Impactful LinkedIn Profiles
+
+CLASS NOTES --
+    -- 
