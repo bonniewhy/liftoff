@@ -1,0 +1,84 @@
+CHAPTER 01: ANATOMY OF AN UNSAFE APPLICATION -- 
+
+-- Breaking down the sample application:
+    -- WEB LAYER: Using Spring MVC. Could also use things like Spring Web Flow (SWF), Apache Struts, or even a Spring-friendly web stack, such as Apache Wicket.
+        -- In a typical web application, leveraging Spring Security, the web layer is where much of the configuration and augmentation of code takes place.
+    -- SERVICE LAYER: Encapsulates the business logic for the application. Also used to operate on both Srping Security APIs and our Calendar APIs within a single method call. Incorporate business rule validation, composition and decomposition of business objects, and cross-cutting concerns such as auditing.
+    -- DATA ACCESS LAYER: Encapsulates the code responsible for manipulating the contents of database tables. This is where you will generally see the use of ORM, such as Hibernate or JPA. Exposes an object-based API to the service layer. The authors have chosen to simplify their coverage of this since it can be quite in depth. YOU WILL NEED TO RESEARCH THIS FURTHER DOWN THE LINE.
+
+-- SECURITY AUDIT RESULTS of our sample application:
+    -- This application exhibits the following insecure behavior:
+        -- Inadvertent privilege escalation due to lack of URL protection and general authentication
+        -- Inapprorpiate or non-existent use of authorization
+        -- Missing database credential security
+        -- Personally-identifiable or sensitive information is easily accessible or unencrypted
+        -- Insecure transport-level protection due to lack of SSL encryption
+        -- Risk level is high
+
+    -- "White hat hacking" or "ethical hacking" is done by professionals who are hired to instruct companies on how to protect themselves better, rather than with the intent to be malicious.
+
+    -- Two specific security standards that you're likely to run into at some point in your career are the "Payment Card Industry Data Security Standard (PCI DSS)" and the "Health Insurance Privacy and Accountability Act (HIPAA)" privacy rules. 
+        -- These standards are intended to ensure the safety of specific sensitive information (such as credit card and medical information) through a combination of process and software controls.
+        -- Many other industries and countries have similar rules about sensitive or "Personally Identifiable Information (PII)". Failure to follow these standards is not only bad practice, but also something that could expose you or your company to significant liability in the event of a security breach.
+
+-- AUTHENTICATION
+    -- "Authentication" identifies who is attempting to request a resource.
+
+    -- "Credential-based authentication": When you log in to your web-based email account, you will provide your username and password. The email provider matches your username with a known user in the database and verifies that your password matches what they have on record. These "credentials" are what the syste uses to validate that you are a valid user of the system. Technically speaking, the email system can check credentials not only in teh database, but anywhere, for example, a corporate directory server such as "Microsoft Active Directory".
+    -- "Two-factor authentication": The combination of a password and a physical device is a ubiquitous form of two-factor authentication. For example, withdrawing money from your bank. You have a physical debit card and a PIN to provide further proof that you are who you say you are. In a professional, security-conscious environment, it's common to see these types of devices in regular use for access to highly secure systems, especially dealing with finance or personally identifiable information. A hardware device, such as "RSA SecurID", combines a time-based hardware device with server-based authentication software, making the environment extremely difficult to compromise.
+    -- "Hardware authentication": When you start your car, you slip your metal key into the ignition and turn it to get the car started. The correct match of the bumps on the key and the tumblers in the ignition switch function as a form of hardware authentication.
+
+    -- Since our application lacks any type of authentication, the audit included the risk of "inadvertent privilege escalation".
+
+    -- Typically, a software system will be divided into two high-level realms, such as unathenticated (or anonymous) and authenticated:
+        -- Authenticated ("Secured") Realm -- User-dependent ("personalized") functionality; secure functionality (eg. administrative)
+        -- Unauthenticated ("Anonymous") Realm -- Common, user-independent functionality.
+
+    -- Anonymous areas do not do the following:
+        -- Require a user to log in to the system or otherwise identify themselves to be usable
+        -- Display sensitive information, such as names, addresses, credit cards, and orders
+        -- Provide functionality to manipulate the overall state of the system or its data
+
+    -- SEE ALSO "Chapter 11: Fine-Grained Access Control"
+
+-- AUTHORIZATION
+    -- "Authorization" uses the information that was validated during authentication to determine whether access should be granted to a particular resource.
+
+    -- Authorization partitions the application functionality and data so that the availability of these items can be controlled by matching the combination of privleges, functionality, and data to users. AKA: Making sure that everyone with an account doesn't have access to higher level features such as viewing, cancelling, modifying orders or customer information.
+
+    -- Authorization typically involves the following two separate aspects that combine to describe the accessibility of the secured system:
+        -- Mapping of an authenticated principal to one or more authorities (often called "roles"). EX: A casual user of your website might be viewed as having visitor authority, while a site administrator might be assigned administrative authority.
+        -- Assignment of authority checks to secured resources of the system. Typically done at the time a system is developed, either thorugh an explicit delcaration in code or through configuration parameters. EX: The screen that allows for the viewing of other users' event sshould be made available only to those users with administrative authority.
+
+    -- A SECURED RESOURCE may be any aspect of the system that should be conditionally available based on the authority of the user. Secured resources of a web-based application could be individual web pages, entire portions of the website, or portions of individual pages. Conversly, secured business resources might be method calls on classes or individual business objects.
+
+    -- You might imagine an authority check that wuold examine the principal, lok up its user account, and determine whether the principal is, in fact, an administrator. It will determine whether or not this principal has administrative status and grant access accordingly.
+        
+    -- SEE ALSO "Chapter 12: Access Control Lists", and "Chapter 13: Custom Authorization"
+
+-- DATABASE CREDENTIAL SECURITY
+    -- Protecting access to the credentials used to access the application shoudl be top priority for us, and an important first step is ensuring that one point of failuer in security does not compromise the entire system.
+        
+    -- SEE ALSO "JDBC-Based Authentication" chapter for configuration of database access layers in Spring Security for creidential storage.
+
+-- SENSITIVE INFORMATION
+    -- The auditors noted that some significant and sensitive pieces of data were completely unencrypted or masked anywhere in the system. Fortunately, there are some simple design patterns and tools that allow us to protect this information securely, with annotation-based AOP suppor tin Spring Security.
+
+-- TRANSPORT-LEVEL PROTECTION
+    -- SSL Protection ensures that communication between the browser client and the web application server are secure against many kinds of tampering and snooping.
+        
+    -- SEE ALSO "HTTPS Setup in Tomcat" section in the appendix for more information about this.
+
+-- USING SPRING SECURITY 4.2 TO ADDRESS SECURITY CONCERNS
+    -- We'll be able to make the following changes to increase our application's security by the end of this book:
+        -- Segment users of the system into user classes
+        -- Assign levels of authorization to user roles
+        -- Assign user roles to user classes
+        -- Apply authentication rules globally across application resources
+        -- Apply authorization rules at all levels for the application architecture
+        -- Prevent common types of attacks intended to manipulate or steal a user's session
+
+-- WHY SPRING SECURITY?
+    -- Standards such as "Java Authenitcation and Authorization Service (JAAS)" or "Java EE Security" do offer some ways of performing some of the same authentication and authorization functions, but Spring Security is a winner because it includes everything you need to implement a top-to-bottom application security solution in a concise and sensible way.
+    -- It also appeals to many because it offers out-of-the-box integration with amny common enterprise authentication systems; so it's adaptable to most situations with little effort (beyond configuration) on the part of the developer.
+    -- It is also in wide use because there really is not other mainstream framework quite like it!
